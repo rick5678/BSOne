@@ -1,0 +1,639 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+    font-size: 22px;
+}
+h2{
+    padding: 3% 10%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+main{
+    width: 100%;
+    height: 3481px;
+}
+.botao-header{
+    background-color: #ffffff;
+}
+.alinhar{
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+.texto-main{
+    width: 70%;
+    padding: 20% 5%;
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+}
+.fonte-color{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 10%;
+}
+.anchor-logo{
+    width: 20%;
+}
+.no-anchor{
+    text-decoration: none;
+}
+.no-anchor:hover{
+    color: #cacaca;
+}
+.nav-background{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0) 99.99%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+}
+.img-main{
+    max-width: 100%;
+    width: 100%;
+    min-width:1000px;
+}
+.transparent{
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    height: 550px;
+    top: 0%;
+    background:rgba(0, 0, 0, 0.5);
+}
+.bg-main{
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    height: 550px;
+    top: 0%;
+}
+.transition-main{
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    height: 68px;
+    top: 549px;
+    background: linear-gradient(180deg, #0E1318 0%, #090909 100%);
+}
+.servicos{
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    height: 505px;
+    top: 615px;
+    background: #090909;
+}
+.nossos-servicos{
+    color: #ffffff;
+    text-align: center;
+    margin: 1%;
+}
+.alinhar-card-centro{
+    margin-bottom: 2%;
+}
+.alinhar-cards{
+    margin-top: 4%;
+}
+.icons-servicos{
+    width: 100%;
+    max-width: 128px;
+    margin-top: 10%;
+}
+.protheus{
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    height: 730px;
+    top: 1116px;
+    background: linear-gradient(180deg, #090909 3.12%, #1E5F53 94.79%);
+}
+.img-protheus{
+    max-width: 100%;
+    width: 100%;
+}
+.oque-protheus{
+    width: 40%;
+    height: 100%;
+    margin: 5%;
+    padding: 2%;
+    float: left;
+    color: #000000;
+    background-color: #ffffff;
+}
+.oque-consultoria{
+    width: 40%;
+    height: 100%;
+    margin: 5%;
+    padding: 2%;
+    float: right;
+    color: #000000;
+    background-color: #ffffff;
+}
+.quem-somos{
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    height: 275px;
+    top: 1839px;
+    background: #1E5F53;
+}
+.quem{
+    padding: 5% 10%;
+    text-align: center;
+    color: #ffffff;
+    
+}
+.carrossel{
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    height: 575px;
+    top: 2113px;
+    background: #0E1318;
+}
+.carrossel-borda{
+    border: 0px solid #000000;
+    border-radius: 50px;
+}
+.tamanho-carrossel{
+    margin: 0% 24%;
+}
+.limitador-carrossel{
+    max-width: 100%;
+    object-fit: cover;
+}
+.texto-carrossel{
+    text-align: left;
+    color: white;
+    float: right;
+}
+.clientes{
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    height: 575px;
+    top: 2687px;
+    background: #ffffff;
+}
+.titulo-clientes{
+    color: #000000;
+}
+.img-clientes{
+    max-width: 90%;
+    height: 150px;
+    border-radius: 90px;
+    filter:grayscale(100%);
+    margin: 3% 3%;
+}
+.img-clientes:hover{
+    padding: 1%;
+    filter:grayscale(0%);
+}
+.rodape{
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    left: 0%;
+    top: 3261px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 98.96%);
+}
+.icons-rodape{
+    max-width: 10%;
+    margin-left: -10% ;
+}
+.icons-sociais{
+    max-width: 10%;
+    margin-left: 15%;
+}
+.fonte-rodape{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.tamanho-rodape, .tamanho-clientes{
+    max-width: 100%;
+    width: 100%;
+}
+.tamanho-colunas-dir{
+    width: 20%;
+    margin-right: 10%;
+    float: right;
+}
+.tamanho-colunas{
+    width: 20%;
+    margin: 2% 2%;
+    float: left;
+    list-style: none;
+}
+.tamanho-colunas-meio{
+    max-width: 35%;
+    width: 20%;
+    margin: 2.5% 2%;
+    min-width: 50px;
+    float: left;
+}
+footer nav ul li {
+    margin-top: 5%;
+}
+@media (max-width: 300px){
+    main{
+        height: 2774px;
+    }
+    body{
+        font-size: 0.7em;
+    }
+    h1,h2, h3, h4, h5{
+        font-size: medium;
+    }
+    .texto-main {
+        width: 80%;
+        margin: 20% 5%;
+    }
+    .transition-main {
+        height: 60px;
+        top: 450px;
+    }
+    .nossos-servicos{
+        margin-top: 5%;
+    }
+    .servicos{
+        top: 509px;
+        height: 700px;
+    }
+    .alinhar-cards, .alinhar-card-centro{
+        width: 80%;
+        height: 55%;
+        margin: 4% 10%;
+    }
+    .icons-servicos{
+        width: 100%;
+        max-width: 50px;
+        margin-top: 10%;
+    }
+    .protheus{
+        top: 1208px;
+        height: 600px;
+        color: #000000;
+    }
+    .figure-protheus{
+        width: 0%;
+        display: none;
+    }
+    .figure-protheus-dir{
+        width: 0%;
+        display: none;
+    }
+    .texto-protheus{
+        width: 45%;
+        height: 100%;
+        float: left;
+        min-width: 100px;
+        background: linear-gradient(180deg, #090909, #112a25 98.96%);
+        color: #ffffff;
+    }
+    .texto-protheus-dir{
+        width: 45%;
+        height: 100%;
+        float: right;
+        min-width: 100px;
+        padding-left: 1.5%;
+        background: linear-gradient(180deg, #112c27, #1c564c 99.96%);
+        color: #ffffff;
+    }
+    .menu-protheus{
+        max-width: 90%;
+        width: 90%;
+        height: 35%;
+        margin: 5% 5%;
+    }
+    .oque-protheus, .oque-consultoria{
+        max-width: 100%;
+        width: 100%;
+        max-height: 300px;
+        padding: 0%;
+        margin: 4% 2%;
+    }
+    .oque-protheus{
+        background-image: url(img/protheus.jpg);
+        background-size: cover;
+    }
+    .oque-consultoria{
+        background-image: url(img/tecnico.jpg);
+        background-position: 100% 0%;
+        background-size: cover;
+    }
+    .quem-somos{
+        top: 1807px;
+        height: 150px;
+        margin-top: 0;
+    }
+    .quem{
+        padding-top: 0%;
+    }
+    .carrossel{
+        top: 1956px;
+        height: 250px;
+    }
+    .carrossel-borda{
+        border-radius: 0;
+    }
+    .tamanho-carrossel{
+        margin: 0% 0%;
+        max-height: 100px;
+    }
+    .clientes{
+        top: 2205px;
+        height: 350px;
+    }
+    .img-clientes{
+        max-width: 90%;
+        height: 70px;
+        border-radius: 90px;
+        filter:grayscale(100%);
+        margin-top: 4%;
+        margin-left: 15%;
+    } 
+    .rodape{
+        top: 2554px;
+    }
+    .tamanho-colunas-dir{
+        width: 40%;
+        min-width: 120px;
+        margin-right: 5%;
+    
+    }
+    .tamanho-colunas{
+        max-width: 35%;
+        padding: 0;
+        min-width: 90px;
+        margin: 0% 5%;
+    }
+    .tamanho-colunas-meio{
+        width: 20%;
+        margin: 2.5% 8%;
+        min-width: 50px;
+        padding: 0;
+        float: none;
+    }
+    .icons-rodape{
+        max-width: 10%;
+        min-width: 15px;
+    }
+    .icons-sociais{
+        max-width: 10%;
+        margin-left: 15%;
+        min-width: 20px;
+    }
+    .fonte-rodape{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 3.0vw;
+        color: white;
+        margin-top: 10%;
+    }
+}
+@media (min-width: 300px) and (max-width: 599px){
+    body{
+        font-size: 0.7em;
+    }
+    h1, h2, h3, h4, h5{
+        font-size: medium;
+    }
+    .texto-main {
+        font-size: 1.5rem;
+    }
+    main{
+       height: 3059px;
+    }
+    .img-main{
+        min-width:none;
+    }
+    .nossos-servicos{
+        margin-top: 5%;
+    }
+    .servicos{
+        height: 700px;
+    }
+    .alinhar-cards, .alinhar-card-centro{
+        width: 80%;
+        height: 55%;
+        margin: 2% 10%;
+    }
+    .icons-servicos{
+        width: 100%;
+        max-width: 50px;
+        margin-top: 10%;
+    }
+    .protheus{
+        top: 1314px;
+        height: 600px;
+        color: #000000;
+    }
+    .figure-protheus{
+        width: 45%;
+        height: 100%;
+        float: left;
+        min-width: 130px;
+    }
+    .figure-protheus-dir{
+        width: 45%;
+        height: 100%;
+        float: right;
+        min-width: 130px;
+    }
+    .texto-protheus{
+        width: 45%;
+        height: 100%;
+        float: right;
+        min-width: 100px;
+        margin: 0% 2%;
+    }
+    .menu-protheus{
+        max-width: 90%;
+        width: 90%;
+        height: 35%;
+        margin: 5% 5%;
+    }
+    .oque-protheus, .oque-consultoria{
+        max-width: 100%;
+        width: 100%;
+        max-height: 300px;
+        padding: 5% 2%;
+        margin: 4% 2%;
+    }
+    .quem-somos{
+        top: 1909px;
+        height: 150px;
+        margin-top: 0;
+    }
+    .quem{
+        padding-top: 0%;
+    }
+    .carrossel{
+        top: 2059px;
+        height: 400px;
+    }
+    .carrossel-borda{
+        border-radius: 0;
+    }
+    .tamanho-carrossel{
+        margin: 0% 0%;
+        max-height: 100px;
+    }
+    .clientes{
+        top: 2459px;
+        height: 400px;
+    }
+    .img-clientes{
+        max-width: 90%;
+        height: 70px;
+        border-radius: 90px;
+        filter:grayscale(100%);
+        margin-top: 4%;
+        margin-left: 20%;
+    } 
+    .rodape{
+        top: 2859px;
+    }
+    .tamanho-colunas-dir{
+        width: 40%;
+        min-width: 120px;
+        margin-right: 5%;
+    
+    }
+    .tamanho-colunas{
+        max-width: 35%;
+        padding: 0;
+        min-width: 90px;
+        margin: 0% 5%;
+    }
+    .tamanho-colunas-meio{
+        width: 20%;
+        margin: 2.5% 8%;
+        min-width: 50px;
+        padding: 0;
+        float: none;
+    }
+    .icons-rodape{
+        max-width: 10%;
+        min-width: 15px;
+    }
+    .icons-sociais{
+        max-width: 10%;
+        margin-left: 15%;
+        min-width: 20px;
+    }
+    .fonte-rodape{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 2.5vw;
+        color: white;
+    }
+    
+
+}
+@media (min-width: 600px) and (max-width: 1000px){
+    body{
+        font-size: 0.8em;
+    }
+    h1, h2, h3, h4, h5{
+        font-size: medium;
+    }
+    .texto-main {
+        font-size: 1.5rem;
+    }
+    main{
+       height: 2916px;
+    }
+    .img-main{
+        min-width:none;
+    }
+    .nossos-servicos{
+        margin-top: 5%;
+    }
+    .servicos{
+        height: 700px;
+    }
+    .alinhar-card-centro{
+        margin: 2% 5%;
+        min-width: 40%;
+        height: 60%;
+    }
+    .alinhar-cards{
+        margin: 2% 5%;
+        min-width: 40%;
+        height: 60%;
+    }
+    .icons-servicos{
+        width: 100%;
+        max-width: 50px;
+        margin-top: 10%;
+    }
+    .protheus{
+        top: 1250px;
+        height: 500px;
+        color: #000000;
+    }
+    .quem-somos{
+        top: 1749px;
+        height: 150px;
+        margin-top: 0;
+    }
+    .quem{
+        padding: 0%;
+    }
+    .carrossel{
+        top: 1898px;
+        height: 450px;
+    }
+    .carrossel-borda{
+        border-radius: 0;
+    }
+    .tamanho-carrossel{
+        width: 100%;
+        max-width: 600px;
+        margin: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .clientes{
+        top: 2347px;
+        height: 350px;
+    }
+    .img-clientes{
+        max-width: 90%;
+        height: 90px;
+        border-radius: 90px;
+        filter:grayscale(100%);
+        margin-top: 2%;
+        margin-left: 12%;
+    } 
+    .rodape{
+        top: 2696px;
+    }
+    .icons-sociais{
+        max-width: 10%;
+        margin-left: 15%;
+        min-width: 20px;
+    }
+    
+}
+@media (min-width: 1200px) {
+    body{
+        font-size: 1.0em;
+    }
+}
+@media (min-width: 1600px) {
+    .bg-main, .protheus, .carrossel, .clientes, .quem-somos, .servicos, .transition-main, .transparent{
+      left: 4%;
+    }
+    body{
+        font-size: 1.2em;
+    }
+  }
+@media (min-width: 1920px) {
+  .bg-main, .protheus, .carrossel, .clientes, .quem-somos, .servicos, .transition-main, .transparent{
+    left: 13%;
+  }
+  body{
+    font-size: 1.25em;
+}
+}
