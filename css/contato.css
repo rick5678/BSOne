@@ -2,7 +2,7 @@ main{
     background: #0E1318;
     position: absolute;
     width: 100%;
-    height: 1335px;
+    height: 1375px;
     color: #ffffff;
 }
 body{
@@ -23,7 +23,7 @@ h2{
 .contatos-page{
     position: absolute;
     width: 100%;
-    height: 1335px;
+    height: 1375px;
     background: radial-gradient(50% 50% at 50% 50%, #000000 0%, rgba(0, 0, 0, 0.885417) 36.46%, rgba(0, 0, 0, 0) 100%);
 }
 .alinhar{
@@ -73,12 +73,9 @@ h2{
 .rodape{
     position: absolute;
     width: 100%;
-    height: 220px;
-    left: 0%;
     top: 1115px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 98.96%);
+    background: linear-gradient(180deg, rgb(14 19 24) 0%, #000000 98.96%);
 }
-
 .icons-rodape{
     max-width: 10%;
     margin-left: -10% ;
