@@ -1,42 +1,12 @@
-var nome = document.querySelector("#name");
-var telefone = document.querySelector("#tel");
-var email = document.querySelector("#email");
-var mensagem = document.querySelector("#msgtxt");
-
-var usuario = nome.value; 
-var tel = telefone.value; 
-var mail = email.value; 
-var msg = mensagem.value; 
-
-Email.send({
-    Host : "smtp.yourisp.com",
-    Username : "username",
-    Password : "password",
-    To : 'them@website.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-
-//senha
-//5BC4CBAA7B0113876B59CDD572ED235CA1EE
-/*
-const nodemailer = require("nodemailer");
+/*const nodemailer = require("nodemailer");
 
 let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 587,
     secure: false,
     auth: {
-<<<<<<< HEAD
-        user: "",
-        pass: ""
-=======
-        user: "*****",
-        pass: "*****"
->>>>>>> 62583166d0411b8ba8ab609067c749df30bb9b8e
+        user: "henriquefranco2212@gmail.com",
+        pass: "@Karol1234"
     }
 });
 

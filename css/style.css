@@ -105,15 +105,16 @@ main{
     max-width: 1440px;
     height: 730px;
     top: 1116px;
-    background: no-repeat url(../src/img/protheus.jpg);
+    background: no-repeat url(../src/img/bg-protheus.jpg);
     background-size: 100%;
+    background-repeat: repeat-y;
 }
 .bg-protheus{
     position: absolute;
     width: 100%;
     max-width: 1440px;
     height: 730px;
-    background-color: #00b7fff0;
+    background-color: #000000a1;
 }
 .article-protheus{
     width: 50%;
@@ -123,7 +124,7 @@ main{
     width: 100%;
     margin-top: 10%;
     padding: 10% 10%;
-    color: #000000;
+    color: #ffffff;
     border: 1px #000000 solid;
 }
 .quem-somos{
@@ -132,13 +133,12 @@ main{
     max-width: 1440px;
     height: 275px;
     top: 1839px;
-    background: linear-gradient(180deg, #00b7ff 0%, #0E1318 81.99%);
+    background: #ffffff;
 }
 .quem{
     padding: 2% 10%;
     text-align: center;   
     color: #000000;
-    font-weight: bold;
     font-size: 1.15em;
 }
 .carrossel-page{
@@ -147,7 +147,7 @@ main{
     max-width: 1440px;
     height: 575px;
     top: 2113px;
-    background: #0E1318;
+    background: #000000;
 }
 .imagem-carrossel-um{
     object-fit: cover;
@@ -170,7 +170,8 @@ main{
     color: #000000;
 }
 .img-clientes{
-    max-width: 90%;
+    width: auto;
+    max-width: 150px;
     height: 150px;
     border-radius: 90px;
     filter:grayscale(100%);
@@ -196,6 +197,11 @@ main{
     width: 100%;
     padding: 5% 25%;
 }   
+.sugestao-email{
+    display: none;
+    color: red;
+    font-size: 0.90em;
+}
 .btn-enviar{
     float: right;
     margin-top: 2%;
@@ -280,12 +286,8 @@ footer nav ul li {
         height: 350px;
     }
     .img-clientes{
-        max-width: 90%;
         height: 70px;
-        border-radius: 90px;
-        filter:grayscale(100%);
-        margin-top: 4%;
-        margin-left: 15%;
+        margin: 5% 5%;
     }
     .contatos-page{
         top: 2754px;
@@ -344,26 +346,19 @@ footer nav ul li {
     .protheus{
         top: 1364px;
         height: 500px;
-        color: #000000;
     }
-    .bg-protheus{
-        height: 500px;
-    }
-    .menu-protheus{
-        max-width: 90%;
-        width: 90%;
-        height: 35%;
-        margin: 5% 5%;
-    }
-    .oque-protheus, .oque-consultoria{
-        max-width: 100%;
+    .oque-protheus{
         width: 100%;
-        max-height: 300px;
-        padding: 2% 2%;
-        margin: 4% 0%;
+        margin-top: 10%;
+        padding: 2% 10%;
+        border: 1px #000000 solid;
+    }
+    .article-protheus{
+        width: 70%;
+        margin: 0% 15%;
     }
     .quem-somos{
-        top: 1759px;
+        top: 1825px;
         height: 150px;
         margin-top: 0;
     }
@@ -371,7 +366,7 @@ footer nav ul li {
         padding-top: 0%;
     }
     .carrossel-page{
-        top: 1909px;
+        top: 1949px;
         height: 400px;
     }
     .carrossel-borda{
@@ -382,18 +377,15 @@ footer nav ul li {
         max-height: 100px;
     }
     .clientes{
-        top: 2309px;
-        height: 300px;
+        top: 2354px;
+        height: 280px;
     }
     .img-clientes{
-        max-width: 90%;
         height: 70px;
-        border-radius: 90px;
-        filter:grayscale(100%);
-        margin: 5% 2%;
+        margin: 3% 4%;
     } 
     .contatos-page{
-        top: 2609px;
+        top: 2634px;
         background: #00000000;
         height: 600px;
     }
@@ -411,12 +403,12 @@ footer nav ul li {
         min-width: 50px;
     }
     .rodape{
-        top: 3208px;
+        top: 3204px;
     }
 }
 @media (min-width: 600px) and (max-width: 1000px){
     body{
-        font-size: 0.8em;
+        font-size: 1em;
     }
     h1, h2, h3, h4, h5{
         font-size: medium;
@@ -425,7 +417,7 @@ footer nav ul li {
         font-size: 1.5rem;
     }
     main{
-       height: 3391px;
+       height: 3541px;
     }
     .img-main{
         min-width:none;
@@ -455,7 +447,7 @@ footer nav ul li {
         top: 1250px;
     }
     .quem-somos{
-        top: 1819px;
+        top: 1919px;
         height: 170px;
         margin-top: 0;
     }
@@ -463,42 +455,39 @@ footer nav ul li {
         padding: 0%;
     }
     .carrossel-page{
-        top: 1988px;
+        top: 2088px;
     }
     .clientes{
-        top: 2447px;
+        top: 2547px;
         height: 350px;
     }
     .img-clientes{
-        max-width: 90%;
         height: 90px;
-        border-radius: 90px;
-        filter:grayscale(100%);
-        margin-top: 2%;
-        margin-left: 12%;
+        margin: 2% 6%;
     } 
     .contatos-page{
-        top: 2796px;
+        top: 2896px;
         height: 675px;
     }
     .rodape{
-        top: 3391px;
+        top: 3541px;
     } 
+    .formularios{
+        padding: 2% 20%;
+    }
 }
 @media (min-width: 1200px) {
     body{
         font-size: 1.0em;
     }
+    .bg-main, .protheus, .carrossel-page, .clientes, .quem-somos, .servicos, .transition-main, .transparent, .contatos-page{
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 @media (min-width: 1600px) {
-    .bg-main, .protheus, .carrossel, .clientes, .quem-somos, .servicos, .transition-main, .transparent, .contatos-page{
-      left: 4%;
-    }
     main{
         height: 4296px;
-    }
-    body{
-        font-size: 1.2em;
     }
     .transition-main{
         top: 700px;
@@ -512,7 +501,7 @@ footer nav ul li {
     .quem-somos{
         top: 1998px;
     }
-    .carrossel{
+    .carrossel-page{
         top: 2272px;
     }
     .clientes{
@@ -525,11 +514,3 @@ footer nav ul li {
         top: 4294px;
     }
   }
-@media (min-width: 1850px) {
-  .bg-main, .protheus, .carrossel, .clientes, .quem-somos, .servicos, .transition-main, .transparent, .contatos-page{
-    left: 13%;
-  }
-  body{
-    font-size: 1.25em;
-}
-}
